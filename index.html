@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test form</title>
+    <link rel="stylesheet" href="global.css" />
+</head>
+
+<body>
+<form action="our-handler-script" method="post">
+    <ul>
+        <li>
+            <label for="user-name"></label>
+            <input type="text" id="user-name" name="user-name"/>
+        </li>
+        <li>
+            <label for="user-email"></label>
+            <input type="email" id="user-email" name="user-email" />
+        </li>
+        <li>
+            <label for="user-message"></label>
+            <textarea id="user-message" name="user-message"></textarea>
+        </li>
+        <li class="button">
+            <button type="submit">Send you message</button>
+        </li>
+    </ul>
+</form>
+</body>
+</html>
